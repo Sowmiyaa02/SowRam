@@ -59,6 +59,14 @@ export const MemoriesScrapbookSection: React.FC<Props> = ({
         'Holding you tight and smiling like there is nobody else in the universe. Happy Birthday my king! 🎂🥹',
       date: 'Happy Birthday My Love',
     },
+    {
+      id: 'v-3',
+      url: '/videos/video_3.mp4',
+      title: 'Another Special SowRam Memory ❤️',
+      caption:
+        'Our precious moments, cute smiles, bike rides, and sweet song journey together. Forever SowRam! 🎬✨',
+      date: 'SowRam Precious Moments',
+    },
   ];
 
   const filteredPhotos = photos.filter((item) => {
@@ -167,11 +175,11 @@ export const MemoriesScrapbookSection: React.FC<Props> = ({
             </div>
 
             <span className="hidden sm:inline-block text-xs font-mono px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-400/40 text-emerald-300">
-              2 Videos Available
+              {videos.length} Videos Available
             </span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {videos.map((vid, idx) => (
               <div
                 key={vid.id}

@@ -1,6 +1,6 @@
 /**
  * SowRam ❤️ — Our Own Little World 💚
- * A romantic birthday and love anniversary surprise website for Ramesh Nagale,
+ * A romantic birthday and love anniversary surprise website for Ramesh,
  * created with infinite love by Sowmiyaa.
  */
 
@@ -118,7 +118,7 @@ export default function App() {
             </div>
 
             <p className="text-xs text-rose-300/80 max-w-md font-light leading-relaxed">
-              Crafted with all the love, hugs, and forever promises by Sowmiyaa for Ramesh Nagale.
+              Crafted with all the love, hugs, and forever promises by Sowmiyaa for Ramesh.
               Happy Birthday to my world! 🌍💚
             </p>
 

@@ -241,6 +241,14 @@ export const FinalSurpriseSection: React.FC<Props> = ({ content }) => {
               <span className="text-xs sm:text-sm text-rose-300/80 mt-3 font-medium">
                 Click for the biggest, warmest embrace in the universe!
               </span>
+
+              {/* Sweet final personal surprise nickname */}
+              <div className="mt-10 pt-6 border-t border-rose-500/20 flex items-center justify-center gap-2 animate-fade-in">
+                <span className="font-serif-luxury italic text-sm sm:text-base text-rose-300/90 tracking-wide font-normal">
+                  Happy Birthday to My Mayilu
+                </span>
+                <Heart className="w-4 h-4 text-rose-400 fill-rose-400 inline-block animate-heart-pulse" />
+              </div>
             </div>
           </div>
         )}
@@ -299,6 +307,14 @@ export const FinalSurpriseSection: React.FC<Props> = ({ content }) => {
                   <Smile className="w-4 h-4 text-amber-300" />
                   <span>Close & Cherish Our World</span>
                 </button>
+              </div>
+
+              {/* Sweet final personal surprise nickname */}
+              <div className="mt-8 pt-4 border-t border-rose-500/20 flex items-center justify-center gap-2 animate-fade-in">
+                <span className="font-serif-luxury italic text-sm sm:text-base text-rose-300/90 tracking-wide font-normal">
+                  Happy Birthday to My Mayilu
+                </span>
+                <Heart className="w-4 h-4 text-rose-400 fill-rose-400 inline-block animate-heart-pulse" />
               </div>
             </div>
           </div>

@@ -109,7 +109,7 @@ export interface SiteContentConfig {
 export const initialRomanticContent: SiteContentConfig = {
   couple: {
     boyfriendName: 'Ramesh',
-    boyfriendFullName: 'Ramesh Nagale',
+    boyfriendFullName: 'Ramesh',
     girlfriendName: 'Sowmiyaa',
     identityName: 'SowRam ❤️',
     subtitle: 'Our Own Little World 💚',
@@ -129,7 +129,7 @@ export const initialRomanticContent: SiteContentConfig = {
     badge: 'SowRam ❤️ — Our Own Little World 💚',
     headline: 'Happy Birthday to My World 🌍❤️',
     dateDisplay: '07 November 2026',
-    tagline: 'Our day. Our memories. Our little world. Forever SowRam. 💚',
+    tagline: 'A sacred universe created by Sowmiyaa with all her heart for Ramesh ❤️',
     salutation: 'Hey, my Ramesh… 🥹💚',
     messageParagraphs: [
       'Today is the day the most handsome, kind-hearted soul was born into this universe — the person who turned my whole life into heaven on earth. Every beat of my heart belongs to you, baby.',
@@ -198,21 +198,21 @@ export const initialRomanticContent: SiteContentConfig = {
       },
       {
         id: 3,
-        question: 'What\'s Sowmiyaa\'s special nickname for you?',
+        question: 'What nickname did you give Sowmiyaa? ❤️',
         options: ['Muththa', 'Thangoo', 'Pavunu', 'Suuthhh'],
         correctAnswerIndex: 3,
         feedback:
-          'Hehe Suuthhh! Only Sowmiyaa gets to call you that with so much love, mischief, and possessiveness! 🤭💚',
-        wrongHint: 'Our naughtiest, most personal nickname that belongs strictly to us! 😉',
+          'Hehe Suuthhh! You gave me this cute, naughty nickname and I adore it with all my heart! 🤭💚',
+        wrongHint: 'Our naughtiest, most personal nickname you gave your girl! 😉',
       },
       {
         id: 4,
-        question: 'Who makes Sowmiyaa feel the most pity when she sees them?',
+        question: 'Who makes Sowmiyaa feel the most fear when she sees them?',
         options: ['Dogs', 'Monkeys', 'Lizards', 'Sowmiyaa\'s dad'],
         correctAnswerIndex: 3,
         feedback:
-          'Yes, baby... my dad\'s hard work and silent sacrifices always make my heart ache with so much love and pity. 🥺❤️',
-        wrongHint: 'Someone very close to her heart whose struggles always move her to tears.',
+          'Yes, baby... Sowmiyaa feels the most fear when she sees her dad! You know your girl so well! 🥺❤️',
+        wrongHint: 'Think about who Sowmiyaa is most scared of! 🙈',
       },
       {
         id: 5,
@@ -590,6 +590,14 @@ export const initialRomanticContent: SiteContentConfig = {
           'Every smile of yours is my world. Our endless romance and happiness captured forever! 🥹💖',
         date: 'Happy Birthday My Love',
       },
+      {
+        id: 'v-3',
+        url: '/videos/video_3.mp4',
+        title: 'Another Special SowRam Memory ❤️',
+        caption:
+          'Our precious moments, cute smiles, bike rides, and sweet song journey together. Forever SowRam! 🎬✨',
+        date: 'SowRam Precious Moments',
+      },
     ],
   },
   finalSurprise: {
@@ -635,7 +643,7 @@ export const initialRomanticContent: SiteContentConfig = {
   },
 };
 
-const STORAGE_KEY = 'sowram_romantic_content_v4';
+const STORAGE_KEY = 'sowram_romantic_content_v6';
 
 export function loadSavedContent(): SiteContentConfig {
   try {

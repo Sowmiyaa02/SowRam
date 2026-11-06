@@ -28,7 +28,7 @@ export const BirthdayWelcomeSection: React.FC<Props> = ({ content, onOpenSurpris
         <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-amber-400/40 bg-amber-950/30 backdrop-blur-md mb-6 shadow-lg shadow-amber-950/50">
           <Cake className="w-4 h-4 text-amber-300 animate-bounce" />
           <span className="text-xs sm:text-sm font-semibold tracking-wider text-amber-200 uppercase">
-            Special Day for Ramesh Nagale • {couple.specialDate}
+            Special Day for Ramesh • {couple.specialDate}
           </span>
           <Sparkles className="w-4 h-4 text-amber-300" />
         </div>
@@ -63,40 +63,40 @@ export const BirthdayWelcomeSection: React.FC<Props> = ({ content, onOpenSurpris
 
         {/* Couple Photo Collage */}
         <div className="w-full max-w-4xl grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 mb-12">
-          {/* Main Hero Card: Bike Ride Tight Hug */}
-          <div className="col-span-2 sm:col-span-2 row-span-2 relative group rounded-2xl overflow-hidden border border-rose-500/30 shadow-2xl bg-black/40">
+          {/* Photo 1 (FIRST): Green Sheet Birthday Wishes */}
+          <div className="col-span-2 sm:col-span-2 row-span-2 relative group rounded-2xl overflow-hidden border-2 border-emerald-500/40 shadow-2xl bg-black/40">
             <img
-              src="/images/18_dab562c2.jpg"
-              alt="SowRam Bike Ride Tight Hug"
+              src="/images/13_a75e867c.jpg"
+              alt="Happy Birthday My Love Post-it"
               className="w-full h-full min-h-[300px] sm:min-h-[380px] object-cover group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent flex flex-col justify-end p-4 sm:p-6 text-left">
               <span className="text-xs font-mono uppercase tracking-widest text-emerald-300 font-bold mb-1">
-                Our Little World 💚
+                Happy Birthday My Love 💚
               </span>
               <h3 className="text-lg sm:text-xl font-serif-luxury font-bold text-white">
-                Holding You Tight on the Road
+                Our Pure Love in One Frame
               </h3>
               <p className="text-xs text-rose-200/80 mt-1">
-                Rings on our fingers, wind on our faces, and your warm embrace.
+                Handwritten with endless love for my Ramesh on our special day.
               </p>
             </div>
-            <div className="absolute top-3 right-3 px-3 py-1 rounded-full bg-rose-600/80 backdrop-blur-md text-white text-[11px] font-semibold flex items-center gap-1 shadow-md">
+            <div className="absolute top-3 right-3 px-3 py-1 rounded-full bg-emerald-600/80 backdrop-blur-md text-white text-[11px] font-semibold flex items-center gap-1 shadow-md">
               <Heart className="w-3 h-3 fill-white" />
-              <span>Soulmates</span>
+              <span>SowRam 💚</span>
             </div>
           </div>
 
-          {/* Photo 2: Green Post-it Note */}
-          <div className="relative group rounded-xl overflow-hidden border border-emerald-500/30 shadow-lg bg-black/40 aspect-square">
+          {/* Photo 2: Bike Ride Tight Hug */}
+          <div className="relative group rounded-xl overflow-hidden border border-rose-500/30 shadow-lg bg-black/40 aspect-square">
             <img
-              src="/images/13_a75e867c.jpg"
-              alt="Happy Birthday My Love Post-it"
+              src="/images/18_dab562c2.jpg"
+              alt="SowRam Bike Ride Tight Hug"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90 p-2 sm:p-3 flex items-end">
-              <span className="text-[11px] sm:text-xs text-emerald-200 font-medium">
-                Happy Birthday My Love 💚
+              <span className="text-[11px] sm:text-xs text-rose-200 font-medium">
+                Bike Ride Hug 🛵
               </span>
             </div>
           </div>
@@ -129,21 +129,7 @@ export const BirthdayWelcomeSection: React.FC<Props> = ({ content, onOpenSurpris
             </div>
           </div>
 
-          {/* Photo 5: Snuggle with Green Heart */}
-          <div className="relative group rounded-xl overflow-hidden border border-emerald-500/30 shadow-lg bg-black/40 aspect-square">
-            <img
-              src="/images/22_7b611d89.jpg"
-              alt="Snuggle & Green Heart"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90 p-2 sm:p-3 flex items-end">
-              <span className="text-[11px] sm:text-xs text-emerald-200 font-medium">
-                Cozy Together 💚
-              </span>
-            </div>
-          </div>
-
-          {/* Photo 6: Kisses & Cuddles */}
+          {/* Photo 5: Kisses & Cuddles */}
           <div className="relative group rounded-xl overflow-hidden border border-rose-500/30 shadow-lg bg-black/40 aspect-square">
             <img
               src="/images/26.jpg"
@@ -153,6 +139,20 @@ export const BirthdayWelcomeSection: React.FC<Props> = ({ content, onOpenSurpris
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90 p-2 sm:p-3 flex items-end">
               <span className="text-[11px] sm:text-xs text-rose-200 font-medium">
                 Our Kisses 💋
+              </span>
+            </div>
+          </div>
+
+          {/* Photo 6: Snuggle with Green Heart */}
+          <div className="relative group rounded-xl overflow-hidden border border-emerald-500/30 shadow-lg bg-black/40 aspect-square">
+            <img
+              src="/images/22_7b611d89.jpg"
+              alt="Snuggle & Green Heart"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90 p-2 sm:p-3 flex items-end">
+              <span className="text-[11px] sm:text-xs text-emerald-200 font-medium">
+                Cozy Together 💚
               </span>
             </div>
           </div>

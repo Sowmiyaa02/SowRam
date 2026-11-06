@@ -83,8 +83,8 @@ export const SplashScreen: React.FC<Props> = ({ onEnter }) => {
         <h2 className="text-lg sm:text-2xl font-serif-luxury italic text-emerald-300 font-semibold mb-2 drop-shadow-md">
           Our Own Little World 💚
         </h2>
-        <p className="text-xs sm:text-sm text-rose-200/80 mb-8 font-light max-w-xs">
-          A sacred universe created by Sowmiyaa with all her heart for Ramesh Nagale.
+        <p className="text-xs sm:text-sm text-rose-200/90 mb-8 font-serif-luxury italic max-w-sm">
+          A sacred universe created by Sowmiyaa with all her heart for Ramesh ❤️
         </p>
 
         {/* Enter Button */}

@@ -1,5 +1,5 @@
 # SowRam ❤️ — Our Own Little World 💚
-### Special Birthday & Love Anniversary Surprise for Ramesh Nagale, from Sowmiyaa
+### Special Birthday & Love Anniversary Surprise for Ramesh, from Sowmiyaa
 
 ---
 

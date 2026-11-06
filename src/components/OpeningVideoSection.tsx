@@ -67,8 +67,10 @@ export const OpeningVideoSection: React.FC<Props> = ({ content, onComplete }) =>
           {openingScreen.headline}
         </h1>
 
-        <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold tracking-wider text-emerald-300 uppercase font-mono mb-6 bg-emerald-950/40 px-4 py-1 rounded-full border border-emerald-500/30">
-          <span>{openingScreen.tagline}</span>
+        <div className="flex items-center justify-center gap-2 px-5 py-2 rounded-full border border-rose-500/30 bg-black/60 backdrop-blur-md mb-6 shadow-lg shadow-rose-950/50">
+          <span className="font-serif-luxury italic text-sm sm:text-base md:text-lg text-rose-100 font-medium tracking-wide">
+            {openingScreen.tagline}
+          </span>
         </div>
 
         {/* Heart-Melting Narrative Letter Card */}
