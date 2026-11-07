@@ -189,12 +189,12 @@ export const initialRomanticContent: SiteContentConfig = {
       },
       {
         id: 2,
-        question: 'What was the very first thing you called Sowmiyaa when you started talking to her?',
+        question: 'What did Sowmiyaa call you when you first started talking? ❤️',
         options: ['Baby', 'Anna', 'Chellam', 'Dear'],
         correctAnswerIndex: 1,
         feedback:
-          'Haha! You literally called me "Anna"! Look where destiny took us—from Anna to the love of my life! 😂❤️',
-        wrongHint: 'You were so formal and innocent back then! Remember that funny family title? 🤭',
+          'Haha! Sowmiyaa called you "Anna"! Look where destiny took us—from Anna to the love of our lives! 😂❤️',
+        wrongHint: 'She was so formal and innocent back then! Remember that funny family title? 🤭',
       },
       {
         id: 3,
@@ -643,7 +643,7 @@ export const initialRomanticContent: SiteContentConfig = {
   },
 };
 
-const STORAGE_KEY = 'sowram_romantic_content_v6';
+const STORAGE_KEY = 'sowram_romantic_content_v7';
 
 export function loadSavedContent(): SiteContentConfig {
   try {

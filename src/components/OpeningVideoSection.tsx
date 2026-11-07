@@ -117,7 +117,7 @@ export const OpeningVideoSection: React.FC<Props> = ({ content, onComplete }) =>
               { src: '/images/13_a75e867c.jpg', label: 'Birthday Post-it 💚' },
               { src: '/images/18_dab562c2.jpg', label: 'Bike Ride Hug 🛵' },
               { src: '/images/20_bc4d7471.jpg', label: 'Highway Smiles ☁️' },
-              { src: '/images/15_e442ba55.jpg', label: 'Holding Hands 🤝' },
+              { src: '/images/7_992f0743.jpg', label: 'Our Smiles 💚' },
             ].map((imgItem, idx) => (
               <div
                 key={idx}
